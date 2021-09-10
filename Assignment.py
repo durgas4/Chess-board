@@ -80,6 +80,7 @@ def main_prog(n):
             if Knight is not None:
                 if Bishop is not None:
                     apply(Knight,Bishop)# this part is throwing error when co-ordinates of Knight and bishop is more than board dimension
+                    #any suggestions would be great
                     print(1)
                 else:
                     print('Move out of board dimension') 
